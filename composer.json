@@ -1,6 +1,6 @@
 {
-    "name": "joselfonseca/laravel-api",
-    "description": "Laravel API starter Kit will give you most of the boilerplate that you need for creating Laravel API's",
+    "name": "indotcode/laravel-api",
+    "description": "Laravel API предоставит вам инструменты для создания API, которые понравятся всем.",
     "keywords": [
         "framework",
         "laravel",
@@ -12,9 +12,8 @@
     "type": "project",
     "authors": [
         {
-            "name": "Jose Fonseca",
-            "email": "jose@ditecnologia.com",
-            "homepage": "https://joselfonseca.dev",
+            "name": "Alex Tinarskiy",
+            "email": "oruno999@gmail.com",
             "role": "Developer"
         }
     ],
