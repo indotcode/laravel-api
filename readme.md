@@ -1,6 +1,6 @@
 ## Laravel API стандартный пакет
 
-![](https://drive.google.com/file/d/1uTXKc6poFLBdYqvV6KBBggHx9lc9neuy/view)
+![](https://avatars.mds.yandex.net/get-zen_doc/105853/pub_5b0a68d41410c39c24faaf18_5b0a6e3f4bf161dbb1ad315d/scale_1200)
 
 Стартовый комплект Laravel API предоставит вам инструменты для создания API, которые понравятся всем, API-аутентификация уже предоставляется с паспортом. 
 
