@@ -1,13 +1,10 @@
-## Laravel API Starter Kit
+## Laravel API стандартный пакет
 
-[![Total Downloads](https://poser.pugx.org/joselfonseca/laravel-api/downloads.svg)](https://packagist.org/packages/joselfonseca/laravel-api) 
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+![](https://drive.google.com/file/d/1uTXKc6poFLBdYqvV6KBBggHx9lc9neuy/view)
 
-![](https://dev-to-uploads.s3.amazonaws.com/i/4om2rgvulc688tlcj31c.jpg)
+Стартовый комплект Laravel API предоставит вам инструменты для создания API, которые понравятся всем, API-аутентификация уже предоставляется с паспортом. 
 
-Laravel API starter Kit will provide you with the tools for making API's that everyone will love, API Authentication is already provided with passport. 
-
-Here is a list of the packages installed:
+Вот список установленных пакетов:
 
 - [Laravel Passport](https://laravel.com/docs/8.x/passport)
 - [Laravel Socialite](https://laravel.com/docs/8.x/socialite)
@@ -15,9 +12,9 @@ Here is a list of the packages installed:
 - [Laravel Permission](https://github.com/spatie/laravel-permission)
 - [Intervention Image](http://image.intervention.io/)
 
-## Installation
+## Установка
 
-To install the project you can use composer
+Для установки проекта вы можете использовать git
 
 ```bash
 git clone https://github.com/indotcode/laravel-api.git
@@ -25,7 +22,7 @@ git clone https://github.com/indotcode/laravel-api.git
 cd laravel-api
 ```
 
-Modify the .env file to suit your needs
+Измените файл .env в соответствии со своими потребностями.
 
 ```
 APP_NAME=Laravel
@@ -79,25 +76,26 @@ MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
 MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 ```
 
-When you have the .env with your database connection set up you can run your migrations
+Когда у вас есть .env с настроенным подключением к базе данных, вы можете запускать миграции
 
 ```bash
 php artisan migrate
+
+php artisan passport:install
 ```
-Then run `php artisan passport:install`
 
-Run `php artisan db:seed` and you should have a new user with the roles and permissions set up
+Запустите `php artisan db:seed` и у вас должен появиться новый пользователь с настроенными ролями и разрешениями.
 
-## Tests
+## Тесты
 
-Navigate to the project root and run `vendor/bin/phpunit` after installing all the composer dependencies and after the .env file was created.
+Перейдите в корень проекта и запустите `vendor/bin/phpunit` после установки всех зависимостей композитора и после создания файла .env.
 
-## API documentation
-The project uses API blueprint as API spec and [Aglio](https://github.com/danielgtaylor/aglio) to render the API docs, please install aglio and [merge-apib](https://github.com/ValeriaVG/merge-apib) in your machine and then you can run the following command to compile and render the API docs 
+## Документация по API
+Проект использует схему API в качестве спецификации API и [Aglio](https://github.com/danielgtaylor/aglio) чтобы отобразить документы API, установите aglio и [merge-apib](https://github.com/ValeriaVG/merge-apib) на вашем компьютере, а затем вы можете запустить следующую команду для компиляции и рендеринга документов API 
 ```bash
 composer api-docs
 ```
 
 ## License
 
-The Laravel API Starter kit is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Laravel API - это программное обеспечение с открытым исходным кодом под лицензией [MIT license](http://opensource.org/licenses/MIT)
