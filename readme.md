@@ -20,6 +20,9 @@
 git clone https://github.com/indotcode/laravel-api.git
 
 cd laravel-api
+
+composer i
+
 ```
 
 Измените файл .env в соответствии со своими потребностями.
@@ -76,9 +79,11 @@ MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
 MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 ```
 
-Когда у вас есть .env с настроенным подключением к базе данных, вы можете запускать миграции
+Когда у вас есть .env с настроенным подключением к базе данных, вы можете запускать
 
 ```bash
+php artisan key:generate
+
 php artisan migrate
 
 php artisan passport:install
