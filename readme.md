@@ -20,7 +20,9 @@ Here is a list of the packages installed:
 To install the project you can use composer
 
 ```bash
-composer create-project indotcode/laravel-api new-api
+git clone https://github.com/indotcode/laravel-api.git
+
+cd laravel-api
 ```
 
 Modify the .env file to suit your needs
